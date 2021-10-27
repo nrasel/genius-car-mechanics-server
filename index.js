@@ -10,8 +10,6 @@ app.use(express.json())
 app.get('/', (req, res) => {
     res.send('genius car mechanics')
 })
-// FBB5fcWZCdUO37w1
-// GeniusCar
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.gzjd3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
